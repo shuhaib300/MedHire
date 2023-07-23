@@ -1,0 +1,172 @@
+.form-container {
+  background-image: url("../../../images/minh-pham-jSAb1ifwf8Y-unsplash.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-register {
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  border: none;
+}
+
+.job-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.job-section input {
+  grid-column: span 2;
+}
+
+.skill-section,
+.technical-skill-section {
+  display: flex;
+  align-items: center;
+}
+
+.skill-section input,
+.technical-skill-section input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.delete-icon-container,
+.add-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-icon,
+.delete-icon {
+  font-size: 18px;
+}
+
+.add-job-skill-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.add-job-skill-section button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.add-job-skill-section button:hover {
+  background-color: #0056b3;
+}
+
+.button-register {
+  background-color: #007bff;
+  margin-left: 300px;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.button-register:hover {
+  background-color: #0056b3;
+}
+
+.input-register {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.register-heading {
+  text-align: center;
+}
+
+.add-icon-button {
+  background-color: #1100fa;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .form-register {
+    padding: 20px;
+  }
+  
+  .button-register {
+    margin-left: 0;
+  }
+  
+  .add-job-skill-section {
+    justify-content: space-between;
+  }
+  
+  .job-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .job-section input {
+    grid-column: initial;
+  }
+  
+  .skill-section,
+  .technical-skill-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .skill-section input,
+  .technical-skill-section input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

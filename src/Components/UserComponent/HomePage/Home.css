@@ -1,0 +1,83 @@
+.container-home {
+  background-image: url("../../../images/minh-pham-jSAb1ifwf8Y-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.heading {
+  color: azure;
+  text-align: left;
+  padding: 50px 0px 0px 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 50px 0px 0px 10px;
+  }
+}
+.heading-content{
+  color: azure;
+  text-align: left;
+  padding: 0px 0px 0px 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.heading-span{
+  flex: 1;
+  flex-shrink: 0; /* Prevent the span from shrinking */
+  max-width: 700px; 
+
+}
+.button-home-login{
+  display: flex;
+}
+.button1{
+   padding: 10px;
+   margin: 25px;
+   border-radius: 10px;
+   width: auto;
+  cursor:pointer;
+}
+.button2{
+  padding: 10px;
+  margin: -20px 0px 0px 25px;
+  border-radius: 10px;
+  width: auto;
+  cursor:pointer;
+}
+.home-card-list{
+  display: flex;
+  justify-content: space-around;
+  color: azure;
+  flex-wrap: wrap;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 50px 0px 0px 10px;
+    align-items: center;
+  }
+}
+.card-heading{
+ padding: 5px;
+ text-align: center;
+}
+.home-card{
+  display: flex;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255,.25);
+  margin: 50px 0px 0px 25px ;
+  backdrop-filter: blur(10px);
+}
+
+

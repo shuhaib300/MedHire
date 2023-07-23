@@ -1,0 +1,77 @@
+.container-login-user {
+    background-image: url("../../../images/minh-pham-jSAb1ifwf8Y-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .login-box-user {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    max-width: 90%; 
+    width: 300px; 
+    height: 300px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+  }
+  
+  .login-heading-user {
+    color: aliceblue;
+    width: 100%;
+  }
+  
+  .heading-login-user {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .login-box-user {
+      width: 90%; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .login-box-user {
+      width: 80%; 
+    }
+  }
+.username-input-container{
+   margin-top: 28px;
+   width: 100%;
+   background-color: black;
+}
+.username-input-box-user {
+    background-color: transparent;
+    width: 80%;
+    border: none;
+    color: white;
+  }
+  
+  .username-input-box-user:hover {
+    border-bottom: 2px solid white;
+  }
+  .login-button-user{
+    background-color: rgb(31, 83, 238);
+    width: auto;
+    border-radius:3px;
+    border: none;
+  }
+.button-login-user {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+}
